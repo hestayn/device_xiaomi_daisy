@@ -158,6 +158,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/daisy
 TARGET_KERNEL_CONFIG := daisy_defconfig
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CLANG_COMPILE := true
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
